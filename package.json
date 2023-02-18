@@ -1,5 +1,22 @@
 {
+  "name": "results-summary-component-main",
+  "description": "This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css"
+  },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-birmingham/results-summary-component-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean-birmingham/results-summary-component-main/issues"
+  },
+  "homepage": "https://github.com/sean-birmingham/results-summary-component-main#readme"
 }
